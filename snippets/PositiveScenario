@@ -1,0 +1,37 @@
+Request:
+http://localhost:8080/rewards/2
+
+Response:
+[
+    {
+        "id": 2,
+        "customerName": "Bob",
+        "transaction": [
+            {
+                "id": 3,
+                "customerId": 2,
+                "amount": 200.0,
+                "transactionDate": "2024-12-01"
+            },
+            {
+                "id": 4,
+                "customerId": 2,
+                "amount": 50.0,
+                "transactionDate": "2024-10-15"
+            }
+        ],
+        "monthlyPoints": [
+            {
+                "year": 2024,
+                "month": "DECEMBER",
+                "points": 250
+            },
+            {
+                "year": 2024,
+                "month": "OCTOBER",
+                "points": 0
+            }
+        ],
+        "totalPoints": 250
+    }
+]

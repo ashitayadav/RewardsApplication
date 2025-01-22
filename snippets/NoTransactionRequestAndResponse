@@ -1,0 +1,5 @@
+Request:
+http://localhost:8080/rewards/3
+
+Response:
+No transactions found for this customer

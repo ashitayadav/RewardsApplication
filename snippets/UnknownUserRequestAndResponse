@@ -1,0 +1,5 @@
+Request:
+http://localhost:8080/rewards/0
+
+Response:
+No record found for this customer

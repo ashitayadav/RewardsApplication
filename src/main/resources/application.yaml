@@ -1,0 +1,13 @@
+spring:
+  port : 8080
+  profiles:
+    active: dev
+
+  jpa:
+    show-sql: true
+    defer-datasource-initialization: true
+    h2:
+      console:
+        enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
