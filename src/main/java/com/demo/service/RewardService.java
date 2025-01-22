@@ -23,6 +23,7 @@ public class RewardService {
 
     @Autowired
     private TransactionRepository transactionRepository;
+
     /**
      * method to calculate RewardPoints based upon customer and number of transactions.
      *
