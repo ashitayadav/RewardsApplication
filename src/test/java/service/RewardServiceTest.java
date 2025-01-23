@@ -1,13 +1,13 @@
 package service;
 
-import com.demo.dto.Customer;
-import com.demo.dto.RewardsResponse;
-import com.demo.dto.Transaction;
-import com.demo.exception.CustomerNotFoundException;
-import com.demo.exception.TransactionNotFoundException;
-import com.demo.repository.CustomerRepository;
-import com.demo.repository.TransactionRepository;
-import com.demo.service.RewardService;
+import com.retailer.rewards.dto.Customer;
+import com.retailer.rewards.dto.RewardsResponse;
+import com.retailer.rewards.dto.Transaction;
+import com.retailer.rewards.exception.CustomerNotFoundException;
+import com.retailer.rewards.exception.TransactionNotFoundException;
+import com.retailer.rewards.repository.CustomerRepository;
+import com.retailer.rewards.repository.TransactionRepository;
+import com.retailer.rewards.service.RewardService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

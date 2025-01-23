@@ -1,4 +1,4 @@
-package com.demo.dto;
+package com.retailer.rewards.dto;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

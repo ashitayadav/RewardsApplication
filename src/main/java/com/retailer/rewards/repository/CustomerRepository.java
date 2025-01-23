@@ -1,6 +1,6 @@
-package com.demo.repository;
+package com.retailer.rewards.repository;
 
-import com.demo.dto.Customer;
+import com.retailer.rewards.dto.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

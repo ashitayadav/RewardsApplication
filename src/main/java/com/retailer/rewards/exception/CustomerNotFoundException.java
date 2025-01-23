@@ -1,4 +1,4 @@
-package com.demo.exception;
+package com.retailer.rewards.exception;
 
 public class CustomerNotFoundException extends Exception {
 

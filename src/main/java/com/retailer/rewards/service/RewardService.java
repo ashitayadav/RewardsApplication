@@ -1,13 +1,13 @@
-package com.demo.service;
+package com.retailer.rewards.service;
 
-import com.demo.dto.Customer;
-import com.demo.dto.MonthlyPoints;
-import com.demo.dto.RewardsResponse;
-import com.demo.dto.Transaction;
-import com.demo.exception.CustomerNotFoundException;
-import com.demo.exception.TransactionNotFoundException;
-import com.demo.repository.CustomerRepository;
-import com.demo.repository.TransactionRepository;
+import com.retailer.rewards.dto.Customer;
+import com.retailer.rewards.dto.MonthlyPoints;
+import com.retailer.rewards.dto.RewardsResponse;
+import com.retailer.rewards.dto.Transaction;
+import com.retailer.rewards.exception.CustomerNotFoundException;
+import com.retailer.rewards.exception.TransactionNotFoundException;
+import com.retailer.rewards.repository.CustomerRepository;
+import com.retailer.rewards.repository.TransactionRepository;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,18 +1,18 @@
 package controller;
 
-import com.demo.controller.RewardController;
-import com.demo.dto.Customer;
-import com.demo.dto.MonthlyPoints;
-import com.demo.dto.RewardsResponse;
-import com.demo.dto.Transaction;
-import com.demo.exception.CustomerNotFoundException;
-import com.demo.exception.TransactionNotFoundException;
+import com.retailer.rewards.controller.RewardController;
+import com.retailer.rewards.dto.Customer;
+import com.retailer.rewards.dto.MonthlyPoints;
+import com.retailer.rewards.dto.RewardsResponse;
+import com.retailer.rewards.dto.Transaction;
+import com.retailer.rewards.exception.CustomerNotFoundException;
+import com.retailer.rewards.exception.TransactionNotFoundException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import com.demo.service.RewardService;
+import com.retailer.rewards.service.RewardService;
 
 import java.time.LocalDate;
 import java.util.Collections;
