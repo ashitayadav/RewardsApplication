@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories("com.demo.repository")
-@EntityScan(basePackages = {"com.demo.dto"})
+@EnableJpaRepositories("com.retailer.rewards.repository")
+@EntityScan(basePackages = {"com.retailer.rewards.dto"})
 public class RewardsCalculationApplication {
     public static void main(String[] args) {
         SpringApplication.run(RewardsCalculationApplication.class, args);
